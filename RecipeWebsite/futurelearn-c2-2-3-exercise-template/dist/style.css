@@ -1,0 +1,87 @@
+
+body {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  background: rgb(200, 207, 207);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table td {
+  border: 1px solid #888;
+  padding: 5px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: darkgreen;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  font-style: italic;
+
+  border-radius: 25px;
+
+  width: 80%;
+  max-width: 400px;
+  height: auto;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.IntroSent{
+  background: darkgreen;
+  border-radius: 40px;
+}
+
+.click{
+  padding: 10px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+
+  position: relative;
+  left: 55%;
+}
+
+.back{
+  padding: 10px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+
+  position: relative;
+  right: 55%;
+}
+
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  padding: 2%;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
